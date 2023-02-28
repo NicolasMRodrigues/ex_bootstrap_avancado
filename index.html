@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Bootstrap avançado</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg navbar-dark bg-dark" data-bs-theme="dark">
+            <div class="container">
+                <h1>Título do site</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a href="#mais-vendidos" class="nav-link active">
+                                Mais vendidos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#novidades" class="nav-link">
+                                Novidades
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recomendados" class="nav-link">
+                                Recomendados
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="banner" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active item-1">
+                
+            </div>
+            <div class="carousel-item item-2">
+                
+            </div>
+            <div class="carousel-item item-3">
+
+            </div>
+        </div>
+        <div class="carousel-indicators">
+            <button class="active" type="button" data-bs-target="#banner" data-bs-slide-to="0">
+
+            </button>
+            <button type="button" data-bs-target="#banner" data-bs-slide-to="1">
+                
+            </button>
+            <button type="button" data-bs-target="#banner" data-bs-slide-to="2">
+                
+            </button>
+        </div>
+    </div>
+    <div class="conteudo-principal" data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="mais-vendidos">
+            <div class="container container-section">
+                <h2 class="section-title">Mais vendidos</h2>
+                <div class="row row-gap-5">
+                    <div class="col-12 col-md-6 col-lg-4 px-4">
+                        <div class="card produto">
+                            <img class="imagem-do-produto" src="images/headset-redragon.webp" alt="Headset Redragon">
+                            <div class="card-body">
+                                <h3 class="card-title produto-title h6">Headset Gamer Redragon Diomedes, USB+3.5mm, 7.1 Surround, Drivers De 53mm, White/Purple, H388-WP</h3>
+                                <div class="preco">
+                                    <p class="h5">R$219,90</p>
+                                    <small>à vista</small>
+                                </div>
+                                <small class="preco-parcelado">12x de R$ 21,56 sem juros</small>
+                            </div>
+                            <button class="btn btn-success btn-add-ao-carrinho" type="button">ADICIONAR AO CARRINHO</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 px-4">
+                        <div class="card produto">
+                            <img class="imagem-do-produto" src="images/ssd-kingston.jpg" alt="SSD Kingston">
+                            <div class="card-body">
+                                <h3 class="card-title produto-title h6">SSD Kingston A400, 960GB, Sata III, Leitura 500MBs e Gravação 450MBs, SA400S37/960G</h3>
+                                <div class="preco">
+                                    <p class="h5">R$429,99</p>
+                                    <small>à vista</small>
+                                </div>
+                                <small class="preco-parcelado">12x de R$ 42,16 sem juros</small>
+                            </div>
+                            <button class="btn btn-success btn-add-ao-carrinho" type="button">ADICIONAR AO CARRINHO</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 px-4">
+                        <div class="card produto">
+                            <img class="imagem-do-produto" src="images/nintendo-switch.png" alt="Nintendo Switch">
+                            <div class="card-body">
+                                <h3 class="card-title produto-title h6">Console Nintendo Switch OLED, 64GB, 1x Joycon, White, HEG S KAAA1 BRA</h3>
+                                <div class="preco">
+                                    <p class="h5">R$2.399,00</p>
+                                    <small>à vista</small>
+                                </div>
+                                <small class="preco-parcelado">12x de R$ 235,20 sem juros</small>
+                            </div>
+                            <button class="btn btn-success btn-add-ao-carrinho" type="button">ADICIONAR AO CARRINHO</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 px-4">
+                        <div class="card produto">
+                            <img class="imagem-do-produto" src="images/mouse-logitech.webp" alt="Mouse Logitech">
+                            <div class="card-body">
+                                <h3 class="card-title produto-title h6">Mouse Gamer Logitech G203 Lightsync RGB, 6 Botões Programáveis, 8000 DPI, Black, 910-005793</h3>
+                                <div class="preco">
+                                    <p class="h5">R$189,90</p>
+                                    <small>à vista</small>
+                                </div>
+                                <small class="preco-parcelado">12x de R$ 15,83 sem juros</small>
+                            </div>
+                            <button class="btn btn-success btn-add-ao-carrinho" type="button">ADICIONAR AO CARRINHO</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 px-4">
+                        <div class="card produto">
+                            <img class="imagem-do-produto" src="images/headset-razer.webp" alt="Headset Razer">
+                            <div class="card-body">
+                                <h3 class="card-title produto-title h6">Headset Gamer Razer Kraken X For Console, 3.5mm, Drivers de 40mm, Múltiplas Plataformas, Black/Green, RZ0</h3>
+                                <div class="preco">
+                                    <p class="h5">R$249,90</p>
+                                    <small>à vista</small>
+                                </div>
+                                <small class="preco-parcelado">12x de R$ 24,50 sem juros</small>
+                            </div>
+                            <button class="btn btn-success btn-add-ao-carrinho" type="button">ADICIONAR AO CARRINHO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="novidades">
+            <div class="container container-section">
+                <h2 class="section-title">Novidades</h2>
+                <div class="row row-gap-5">
+                    <div class="col-12 col-md-6 col-lg-4 px-4">
+                        <div class="card produto">
+                            <img class="imagem-do-produto" src="images/headset-redragon.webp" alt="Headset Redragon">
+                            <div class="card-body">
+                                <h3 class="card-title produto-title h6">Headset Gamer Redragon Diomedes, USB+3.5mm, 7.1 Surround, Drivers De 53mm, White/Purple, H388-WP</h3>
+                                <div class="preco">
+                                    <p class="h5">R$219,90</p>
+                                    <small>à vista</small>
+                                </div>
+                                <small class="preco-parcelado">12x de R$ 21,56 sem juros</small>
+                            </div>
+                            <button class="btn btn-success btn-add-ao-carrinho" type="button">ADICIONAR AO CARRINHO</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 px-4">
+                        <div class="card produto">
+                            <img class="imagem-do-produto" src="images/ssd-kingston.jpg" alt="SSD Kingston">
+                            <div class="card-body">
+                                <h3 class="card-title produto-title h6">SSD Kingston A400, 960GB, Sata III, Leitura 500MBs e Gravação 450MBs, SA400S37/960G</h3>
+                                <div class="preco">
+                                    <p class="h5">R$429,99</p>
+                                    <small>à vista</small>
+                                </div>
+                                <small class="preco-parcelado">12x de R$ 42,16 sem juros</small>
+                            </div>
+                            <button class="btn btn-success btn-add-ao-carrinho" type="button">ADICIONAR AO CARRINHO</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 px-4">
+                        <div class="card produto">
+                            <img class="imagem-do-produto" src="images/nintendo-switch.png" alt="Nintendo Switch">
+                            <div class="card-body">
+                                <h3 class="card-title produto-title h6">Console Nintendo Switch OLED, 64GB, 1x Joycon, White, HEG S KAAA1 BRA</h3>
+                                <div class="preco">
+                                    <p class="h5">R$2.399,00</p>
+                                    <small>à vista</small>
+                                </div>
+                                <small class="preco-parcelado">12x de R$ 235,20 sem juros</small>
+                            </div>
+                            <button class="btn btn-success btn-add-ao-carrinho" type="button">ADICIONAR AO CARRINHO</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 px-4">
+                        <div class="card produto">
+                            <img class="imagem-do-produto" src="images/mouse-logitech.webp" alt="Mouse Logitech">
+                            <div class="card-body">
+                                <h3 class="card-title produto-title h6">Mouse Gamer Logitech G203 Lightsync RGB, 6 Botões Programáveis, 8000 DPI, Black, 910-005793</h3>
+                                <div class="preco">
+                                    <p class="h5">R$189,90</p>
+                                    <small>à vista</small>
+                                </div>
+                                <small class="preco-parcelado">12x de R$ 15,83 sem juros</small>
+                            </div>
+                            <button class="btn btn-success btn-add-ao-carrinho" type="button">ADICIONAR AO CARRINHO</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 px-4">
+                        <div class="card produto">
+                            <img class="imagem-do-produto" src="images/headset-razer.webp" alt="Headset Razer">
+                            <div class="card-body">
+                                <h3 class="card-title produto-title h6">Headset Gamer Razer Kraken X For Console, 3.5mm, Drivers de 40mm, Múltiplas Plataformas, Black/Green, RZ0</h3>
+                                <div class="preco">
+                                    <p class="h5">R$249,90</p>
+                                    <small>à vista</small>
+                                </div>
+                                <small class="preco-parcelado">12x de R$ 24,50 sem juros</small>
+                            </div>
+                            <button class="btn btn-success btn-add-ao-carrinho" type="button">ADICIONAR AO CARRINHO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="recomendados">
+            <div class="container container-section">
+                <h2 class="section-title">Recomendados para você</h2>
+                <div class="row row-gap-5">
+                    <div class="col-12 col-md-6 col-lg-4 px-4">
+                        <div class="card produto">
+                            <img class="imagem-do-produto" src="images/headset-redragon.webp" alt="Headset Redragon">
+                            <div class="card-body">
+                                <h3 class="card-title produto-title h6">Headset Gamer Redragon Diomedes, USB+3.5mm, 7.1 Surround, Drivers De 53mm, White/Purple, H388-WP</h3>
+                                <div class="preco">
+                                    <p class="h5">R$219,90</p>
+                                    <small>à vista</small>
+                                </div>
+                                <small class="preco-parcelado">12x de R$ 21,56 sem juros</small>
+                            </div>
+                            <button class="btn btn-success btn-add-ao-carrinho" type="button">ADICIONAR AO CARRINHO</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 px-4">
+                        <div class="card produto">
+                            <img class="imagem-do-produto" src="images/ssd-kingston.jpg" alt="SSD Kingston">
+                            <div class="card-body">
+                                <h3 class="card-title produto-title h6">SSD Kingston A400, 960GB, Sata III, Leitura 500MBs e Gravação 450MBs, SA400S37/960G</h3>
+                                <div class="preco">
+                                    <p class="h5">R$429,99</p>
+                                    <small>à vista</small>
+                                </div>
+                                <small class="preco-parcelado">12x de R$ 42,16 sem juros</small>
+                            </div>
+                            <button class="btn btn-success btn-add-ao-carrinho" type="button">ADICIONAR AO CARRINHO</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 px-4">
+                        <div class="card produto">
+                            <img class="imagem-do-produto" src="images/nintendo-switch.png" alt="Nintendo Switch">
+                            <div class="card-body">
+                                <h3 class="card-title produto-title h6">Console Nintendo Switch OLED, 64GB, 1x Joycon, White, HEG S KAAA1 BRA</h3>
+                                <div class="preco">
+                                    <p class="h5">R$2.399,00</p>
+                                    <small>à vista</small>
+                                </div>
+                                <small class="preco-parcelado">12x de R$ 235,20 sem juros</small>
+                            </div>
+                            <button class="btn btn-success btn-add-ao-carrinho" type="button">ADICIONAR AO CARRINHO</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 px-4">
+                        <div class="card produto">
+                            <img class="imagem-do-produto" src="images/mouse-logitech.webp" alt="Mouse Logitech">
+                            <div class="card-body">
+                                <h3 class="card-title produto-title h6">Mouse Gamer Logitech G203 Lightsync RGB, 6 Botões Programáveis, 8000 DPI, Black, 910-005793</h3>
+                                <div class="preco">
+                                    <p class="h5">R$189,90</p>
+                                    <small>à vista</small>
+                                </div>
+                                <small class="preco-parcelado">12x de R$ 15,83 sem juros</small>
+                            </div>
+                            <button class="btn btn-success btn-add-ao-carrinho" type="button">ADICIONAR AO CARRINHO</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 px-4">
+                        <div class="card produto">
+                            <img class="imagem-do-produto" src="images/headset-razer.webp" alt="Headset Razer">
+                            <div class="card-body">
+                                <h3 class="card-title produto-title h6">Headset Gamer Razer Kraken X For Console, 3.5mm, Drivers de 40mm, Múltiplas Plataformas, Black/Green, RZ0</h3>
+                                <div class="preco">
+                                    <p class="h5">R$249,90</p>
+                                    <small>à vista</small>
+                                </div>
+                                <small class="preco-parcelado">12x de R$ 24,50 sem juros</small>
+                            </div>
+                            <button class="btn btn-success btn-add-ao-carrinho" type="button">ADICIONAR AO CARRINHO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

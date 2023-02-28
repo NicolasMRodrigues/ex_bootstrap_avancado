@@ -1,0 +1,166 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+nav {
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+.imagem-do-produto {
+    max-width: 100%;
+}
+
+.preco {
+    color: #65ad00;
+    display: flex;
+}
+.preco p, small{
+    margin: auto 0;
+}
+
+.preco small {
+    margin-left: 4px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.produto {
+    border: none;
+    padding: 0 16px 16px 16px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 100%;
+}
+
+.preco-parcelado {
+    color: #696969;
+}
+
+.produto-title {
+    margin-bottom: 12px;
+    height: 58px;
+    overflow: hidden;
+}
+
+section {
+    padding-top: 80px;
+}
+
+.section-title {
+    margin: 0 0 16px 12px;
+}
+
+.conteudo-principal {
+    margin-bottom: 80px;
+}
+
+.btn-add-ao-carrinho {
+    display: none;
+    position: absolute;
+    top: 98%;
+    left: 0%;
+    right: 0%;
+    padding: 10px;
+    border-radius: 0 0 6px 6px;
+}
+
+.produto:hover {
+    cursor: pointer;
+}
+
+.produto:hover .btn-add-ao-carrinho {
+    display: block;
+}
+
+.item-1 {
+    height: 450px;
+    background: #000 center center no-repeat;
+    background-size: auto 100%;
+}
+
+.item-2 {
+    height: 450px;
+    background: #000 center center no-repeat;
+    background-size: auto 100%;
+}
+
+.item-3 {
+    height: 450px;
+    background: #000 center center no-repeat;
+    background-size: auto 100%;
+}
+
+.item-1 {
+    background-image: url(images/banner-blackfriday-desktop.jpg);
+}
+
+.item-2 {
+    background-image: url(images/banner-carnaval-desktop.jpg);
+}
+
+.item-3 {
+        background-image: url(images/banner-ano-novo-desktop.jpg);
+}
+
+.container-section {
+    width: 960px;
+}
+
+@media screen  and (max-width: 767px){
+    .nav-link {
+        padding-left: 8px;
+        max-width: 170px;
+    }
+    .row-gap-5 {
+        row-gap: 4.5rem!important;
+    }
+
+    .container-section {
+        width: auto;
+    }
+
+    .btn-add-ao-carrinho {
+        display: block;
+    }
+
+    .imagem-do-produto {
+        margin: 0 20px;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .item-1, .item-2, .item-3 {
+        height: 250px;
+    }
+
+    .item-1 {
+        background-image: url(images/banner-blackfriday-mobile.jpg);
+    }
+
+    .item-2 {
+        background-image: url(images/banner-carnaval-mobile.jpg);
+    }
+
+    .item-3 {
+        background-image: url(images/banner-ano-novo-mobile.jpg);
+    }
+}
